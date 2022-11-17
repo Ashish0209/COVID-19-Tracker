@@ -1,0 +1,134 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} */
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+.card{
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: repeat(3,2fr); */
+    grid-template-columns: repeat(auto-fill,400px);
+}
+.card_main_1{
+    background-color: rgb(103, 103, 233);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 10rem;
+    color: white;
+    transition: all 1s ease;
+}
+.card_main_2{
+    background-color: rgb(33, 125, 33);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 10rem;
+    color: white;
+    transition: all 1s ease;
+}
+.card_main_3{
+    background-color: rgba(224, 224, 61, 0.723);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 10rem;
+    transition: all 1s ease;
+}
+.card_main_4{
+    background-color: rgba(255, 140, 0, 0.832);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 10rem;
+    transition: all 1s ease;
+}
+.card_main_5{
+    background-color: rgb(62, 62, 170);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 10rem;
+    transition: all 1s ease;
+}
+.card_main_6{
+    background-color: rgb(139, 105, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 10rem;
+    transition: all 1s ease;
+}
+.card_name{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+}
+span{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    padding: 5px;
+    
+}
+.card_total{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 70px;
+    
+}
+/* Hover section */
+.card_main_1:hover {
+    transform: translate3D(0,-1px,0) scale(1.2);
+}
+.card_main_2:hover {
+    transform: translate3D(0,-1px,0) scale(1.2);
+}
+.card_main_3:hover {
+    transform: translate3D(0,-1px,0) scale(1.2);
+}
+.card_main_4:hover {
+    transform: translate3D(0,-1px,0) scale(1.2);
+}
+.card_main_5:hover {
+    transform: translate3D(0,-1px,0) scale(1.2);
+}
+.card_main_6:hover {
+    transform: translate3D(0,-1px,0) scale(1.2);
+}
+
